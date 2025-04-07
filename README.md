@@ -33,11 +33,12 @@
 ```
 git clone https://github.com/LeeRichi/42_event_sorter.git
 ```
-### step 2. Go to: [chrome extention](chrome://extensions/) 👈️click here or copy:
+### step 2. Go to: chrome://extensions/ <br> copy and paste to your chrome: 👇️
 ```
 chrome://extensions/
 ```
-Click: Load unpacked, upload the cloned folder
+#### a. Enable "Developer mode" at the top right.
+#### b. Click unpacked, upload the cloned folder
 
 ### step 3. Go to: [42 page](https://profile.intra.42.fr/events/marks) 👈️click here or copy:
 ```
