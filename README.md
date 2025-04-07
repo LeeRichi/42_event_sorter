@@ -11,13 +11,9 @@
 		<span> · </span>
 		<a href="#-features-of-the-project">Features</a>
 		<span> · </span>
-		<a href="#-requirements">Requirements</a>
-		<span> · </span>
 		<a href="#-instructions">Instructions</a>
 		<span> · </span>
-		<a href="#-learning-goals">Learning Goals</a>
-		<span> · </span>
-		<a href="#-project-structure">Project Structure</a>
+		<a href="#-learning-goals">Future Goals</a>
 </h3>
 
 ---
@@ -32,70 +28,27 @@
 - Fetching data from 42 apis, including fetching events and feedbacks.
 - Mulnipulate the web element by javascript alongside with service worker.
 
-## 🛠️ Requirements
-
-clone the project
+## 🔧 Instructions
+### step 1. clone the project
 ```
 git clone https://github.com/LeeRichi/42_event_sorter.git
 ```
-Go to: chrome://extensions/
+### step 2. Go to: [chrome extention](chrome://extensions/) 👈️click here or copy:
+```
+chrome://extensions/
+```
 Click: Load unpacked, upload the cloned folder
 
-Go to: [42 page](https://profile.intra.42.fr/events/marks)
+### step 3. Go to: [42 page](https://profile.intra.42.fr/events/marks) 👈️click here or copy:
+```
+https://profile.intra.42.fr/events/marks
+```
 Sort the events you want.
 
-## 🔧 Instructions
+### ...or if want to hear my voice, here's video instruction.
+https://youtu.be/OJNsc3dDt6U
 
-
-### 1. Compiling the project
-
-To compile the project, navigate to the project directory and run:<br>
->Tip: Some users might encounter errors when running the following commands in the VSCode terminal on Mac M1. However, using the original Terminal app on macOS can resolve the issue.
-
-```shell
-$ make
-```
-
-Other make-files-commands:
-```shell
-$ make bonus   # Compile with multiple pipes support
-$ make clean   # Remove object files
-$ make fclean  # Remove executable and object files
-$ make re      # Recompile the project
-```
-**2. Using the program**
-
-After compiling, you can use the push_swap program to sort a list of integers:
-```
-$ ./pipex infile "cmd1" "cmd2" outfile
-```
-example:
-```
-$ ./pipex input.txt "cat" "wc -l" output.txt
-```
-
-## 🎯 Learning Goals
-- This project helps develop:
-	- Process management: Using fork(), execve(), and waitpid() for process execution.
-	- Inter-process communication: Utilizing pipe() to create data flow between commands.
-	- File redirection: Handling file descriptors with dup2().
-	- Error handling: Managing system calls and error messages properly.
-
-## 📂 App Structure
-```
-.
-├── README.md
-├── background.js
-├── content.js
-├── icons
-│   └── game.png
-├── index.js
-├── manifest.json
-├── package-lock.json
-├── package.json
-├── popup.html
-└── popup.js
-```
-<!-- ## 📸 screen shot
-<img src="images/gifdemo.gif" alt="Demo Screenshot" width="600" height="300"> -->
+## 🎯 Future Goals
+- Implement the POST feature for writing feadbacks nad subscribe.
+- Of course I am trying to publish in store but google takes their time to verify my account.
 
